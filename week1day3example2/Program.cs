@@ -32,12 +32,18 @@ namespace week1day3example2
             int currentMoney = 41;
 
             Console.WriteLine("Trevon got {0} for cleaning the attic.", (currentMoney - initialMoney));
-            */
 
             int juliaMiles = 47;
             int pranavMiles = juliaMiles - 30;
 
             Console.WriteLine("Pranav ran {0} miles", pranavMiles);
+            */
+
+            int totalBudget = 12;
+            int singlePackageCost = 3;
+
+            Console.WriteLine("We can buy {0} packs of envelopes.", (totalBudget / singlePackageCost));
+
         }
     }
 }
