@@ -20,12 +20,19 @@ namespace week1day3example2
             int billSplitBetween = 4;
 
             Console.WriteLine("The total bill was {0}", (individualPayment * billSplitBetween));
-            */
+            
 
             int totalBudget = 40;
             int singlePackageCost = 8;
 
             Console.WriteLine("We can buy {0} packs of diapers.", (totalBudget / singlePackageCost));
+            */
+
+            int initialMoney = 29;
+            int currentMoney = 41;
+
+            Console.WriteLine("Trevon got {0} for cleaning the attic.", (currentMoney - initialMoney));
+        
         }
     }
 }
