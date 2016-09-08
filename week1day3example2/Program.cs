@@ -10,6 +10,9 @@ namespace week1day3example2
     {
         static void Main(string[] args)
         {
+            int totalSugar = 7;
+            int currentSugar = 2;
+            Console.WriteLine("We need {0} cups of sugar", (totalSugar - currentSugar));
         }
     }
 }
